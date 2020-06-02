@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+
+    <!--     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+
+
+    <title>Weather App</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <input type="text" placeholder="Search...">
+
+        <h2 id="location"></h2>
+
+        <br>
+        <div class="box">
+            <span>
+                <h2 id='temperature'>NaN</h2>
+                <h4 id="main"></h4>
+                <br>
+                <p id='description'></p>
+            </span>
+            <div id="icons">
+                <img class='animated fadeInDown infnite' src="icons/unknown.png">
+            </div>
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
