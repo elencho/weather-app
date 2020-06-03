@@ -16,6 +16,11 @@ const icons = document.getElementById('icons');
 search.addEventListener('keypress', setQuary);
 
 
+fetch("https://ipinfo.io/212.58.102.230/json?token=aa96ae07c61799")
+.then(res => res.json())
+.then(data => getResults(data.city))
+ 
+
 
 function setQuary(evt) {
     if (evt.keyCode == 13) {
