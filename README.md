@@ -9,3 +9,6 @@ The icons we're going to use for our web application are created by the Graphic 
 Link to her Repo: https://github.com/manifestinteractive/weather-underground-icons
 
 Check out (https://api.openweathermap.org/data/2.5/)
+
+For auto location I am using API(https://ipinfo.io)
+
