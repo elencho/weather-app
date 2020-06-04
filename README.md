@@ -12,3 +12,5 @@ Check out (https://api.openweathermap.org/data/2.5/)
 
 For auto location I am using API(https://ipinfo.io)
 
+First Download zip file and extract it.
+
